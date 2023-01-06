@@ -8,7 +8,6 @@ export const config = {
   },
 };
 
-const proxy = httpProxy.createProxyServer();
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<any>
